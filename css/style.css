@@ -74,13 +74,14 @@ margin-left: 15px;
 #reste h1{
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
-    width: 100%;
+   width: 305px;
     text-align: center;
     color: hsl(195deg 100% 8%);
+    
 }
 
 #reste p{
-    width: 90%;
+    width: 270px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 0.9rem;
