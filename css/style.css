@@ -2,5 +2,97 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 /* font-family: 'Poppins', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 /* font-family: 'Open Sans', sans-serif; */
+
+/* les classes */
+.pink{
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-size: 0.6rem;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 55px;
+}
+
+
+
+body{
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: hsl(197deg 100% 96%) url(../frontend_Junior/images/bg-hero-mobile.svg) ;
+}
+
+#haut{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#haut #logo{
+height: 20px;
+width: 25%;
+margin-left: 15px;
+
+}
+
+#haut #logo img{
+    width: 100%;
+}
+
+#haut button{
+    margin-right: 15px;
+    border: none;
+    border-radius: 50px;
+    padding: 3px 18px;
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.6rem;
+    box-shadow: 0px 1px 10px 0px #00000024;
+}
+
+#reste{
+    
+    width: 82%;
+    margin: 0px auto;
+    height: 80vh;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#reste h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+    color: hsl(195deg 100% 8%);
+}
+
+#reste p{
+    width: 90%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: hsl(195deg 100% 8%);
+}
+
+
+
+#reste img{
+    width: 100%;
+}
+
+
+
